@@ -1,0 +1,26 @@
+/* print stylesheet */
+/* simply hide unnecessary elements */
+
+@page { margin: 0.5in;   }
+
+body { 
+	margin-bottom: 0; 
+	margin-top: -0.5in; 
+	background: none; 
+}
+
+.logo { height: 0; }
+
+.container { 
+	width: 7.0in ;
+	margin-bottom: 0;
+}
+
+nav, 
+.logo, 
+footer,
+#resultMessage, 
+#backlinks,
+div.sidebar { display: none }
+
+

@@ -1,0 +1,199 @@
+/* Custom CSS for SHU projects */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* fixed background image */
+
+body {
+  display: table;
+  height: 100%;
+  /* position: relative; */
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 120px;
+}
+body { background: url(../img/MSP_42413_113.jpg) no-repeat center 50px fixed;  }
+body#homePage {
+  background: url(../img/studentswithtechnology2.jpg) no-repeat left -50px fixed;
+}
+
+body#tup {
+  background: url(../img/DSCF0409.jpg) no-repeat left -50px fixed;
+}
+
+
+body#tc {
+  background: url(../img/Lester_050415_0269a.jpg) no-repeat left -50px fixed;
+}
+
+body#rp {
+  background: url(../img/DSCF5302.jpg) no-repeat left -50px fixed;
+}
+
+body>.container-fluid { padding-top: 50px;}
+
+
+nav.navbar, div.logo { background: #048 }
+nav.navbar { margin-bottom: 0; min-height: 60px;}
+nav.navbar-inverse { 
+	border-radius: 0;
+	border: none;
+}
+
+.navbar-brand { max-width: 80% }
+.navbar-brand a:link, .navbar-brand a:visited { color: #e7e7e7; }
+.navbar-brand a:active, .navbar-brand a:hover { color: #ffffff; text-decoration: none }
+
+.row.logo {
+  padding-bottom: 30px;
+  padding-top: 15px;
+  background: #048;
+}
+
+/* opacity for content */
+.row {   background-color: rgba(255,255,255,0.85) }
+
+/* air at bottom of page */
+.container .row {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+/* forms */
+/* this looks like an error in Bootstrap */
+fieldset {
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/* form buttons */
+button.time, 
+button.skills,
+button.learning,
+button.access  {
+    float: right;
+}
+
+/* make sure input fields aren't too small on mobiles */
+#sigDate.form-control, #studentName.form-control {
+  min-width: 140px;
+}
+
+/* radios */
+.radio { text-align: center; }
+.radio label { padding-left: 0 }
+
+.radio input[type="radio"] {
+  margin-left: auto;
+  margin-right: auto;
+  position: inherit;;
+}
+
+/* checkbox that is the first thing after a label needs air */
+label > input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+th { text-align:  center }
+
+h4 {
+	margin-bottom:  0;
+	margin-top: 20px;
+}
+
+/* ugly, hard-to-read lists */
+ol li {
+    margin-bottom: 1em;
+}
+
+/* callouts */
+/* these should have been in the Bootstrap distro but weren't */
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+/* end callouts */
+
+/* table */
+table#resultsTable { margin-bottom: 90px }
+.reminderButtons {
+  margin-bottom: 12px;
+}
+
+.btn .glyphicon { 
+    margin-right: 4px;
+    vertical-align: text-top;
+     }
+.bottom {
+    clear: both;
+    display: block;
+    height: 120px;
+}
+.footer {
+  background: #e7e7e7;
+  padding: 35px 0 45px;
+  bottom: 0;
+  /* height: 120px; */
+  height: auto;
+  position: absolute;
+  width: 100%;
+}
