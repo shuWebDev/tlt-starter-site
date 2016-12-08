@@ -1,25 +1,35 @@
+<?php require_once($_SERVER["DOCUMENT_ROOT"] . 'tlt-globals/libs/paths.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+<!--       <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!- - The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags - ->
     <title>Laptop Distribution Home</title>
 
-    <!-- Bootstrap -->
+    <!- - Bootstrap - ->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->     
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->     
-    <!--[if lt IE 9]>       
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>       
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>     
-    <![endif]-->   
-  </head>   
-<body id="homePage">   
-  
+    <!- - HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries - ->
+    <!- - WARNING: Respond.js doesn't work if you view the page via file:// - ->
+    <!- -[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]- ->
+    -->
+
+<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'head.tpl') ?>
+
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+
+
+<body id="homePage">
+
   <? include('includes/navbar.htm') ?>
 
   <div class="container-fluid">
@@ -31,12 +41,12 @@
      </div>
      <div class="container">
        <div class="row">
-              <div class="col-lg-9 col-md-7 col-sm-12 col-xs-12">           
-<h1>Laptop Distribution</h1>           
+              <div class="col-lg-9 col-md-7 col-sm-12 col-xs-12">
+<h1>Laptop Distribution</h1>
 <h2>Mandatory Laptop Forms</h2>
-<p>All students must confirm their acceptance of the Terms and Conditions, Return Policy and Technology Usage Policy. 
+<p>All students must confirm their acceptance of the Terms and Conditions, Return Policy and Technology Usage Policy.
   Students who will be minors at the time of their laptop distribution must also have a parental consent form.</p>
-<p><a href="students/index.php">Log in here to check the status</a> of your forms, and for links to complete them.</p> 
+<p><a href="students/index.php">Log in here to check the status</a> of your forms, and for links to complete them.</p>
 
 
 <h2>Pirate Adventure and Orientation 2016</h2>
@@ -64,8 +74,8 @@
 
     </div>     <!-- end left column -->
 
-    <div class="col-lg-3  col-md-5 col-sm-12 col-xs-12"> 
-   <h3>Seton Hall Mobile Computing</h3>     
+    <div class="col-lg-3  col-md-5 col-sm-12 col-xs-12">
+   <h3>Seton Hall Mobile Computing</h3>
       <h4>Asset Management Office</h4>
 <address>Corrigan Hall, Room 27<br>
 Seton Hall University<br>
@@ -91,10 +101,13 @@ Email: <a href="mailto:assets@shu.edu">assets@shu.edu</a></address>
 
 <? include('includes/footer.htm') ?>
 
+<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'footer.tpl') ?>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
-</html> 
+</html>
