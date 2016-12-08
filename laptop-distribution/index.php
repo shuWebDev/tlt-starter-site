@@ -1,4 +1,4 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"] . 'tlt-globals/libs/paths.php') ?>
+<?php require_once('../globals/libs/paths.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
