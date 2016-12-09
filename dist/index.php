@@ -1,81 +1,171 @@
 <?php
-	require_once('../globals/libs/paths.php');
-	$page_title = "Laptop Distribution Home";
+	require_once('../globals/libs/config.php');
+	$page_title = "Master Home Template";
 ?>
 
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
 	<head>
-
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'head.tpl') ?>
-
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
-
 	</head>
+	<body>
 
-
-	<body id="homePage">
 		<header id="header" class="main-header">
 			<?php include(PATH_GLOBAL_VIEWS_DIR . 'header.tpl') ?>
 		</header>
 
-		<section id="main-app">
+		<div class="row">
+			<div class="large-12 columns">
+				<h1>Welcome to Foundation</h1>
+			</div>
+		</div>
 
-			<? include('includes/navbar.htm') ?>
-
-			<div class="row">
-				<div class="small-12 columns">
-					<h1>Laptop Distribution</h1>
-				</div>
-				<div class="small-12 medium-7 large-8 columns">
-					<h3>Mandatory Laptop Forms</h3>
-					<p>All students must confirm their acceptance of the Terms and Conditions, Return Policy and Technology Usage Policy.
-					Students who will be minors at the time of their laptop distribution must also have a parental consent form.</p>
-					<p><a href="students/index.php">Log in here to check the status</a> of your forms, and for links to complete them.</p>
-
-
-					<h3>Pirate Adventure and Orientation 2016 Key Dates</h3>
-
-					<h4>Pirate Adventure Dates</h4>
-					<ol>
-						<li>Monday &amp; Tuesday,  June 20 &amp; 21:    Math, Science majors</li>
-						<li>Thursday &amp; Friday, June 23 &amp; 24:    Stillman, Communications &amp; The Arts</li>
-						<li>Monday &amp; Tuesday,  June 27 &amp; 28:    Education, Nursing, Diplomacy, Theology</li>
-						<li>Thursday &amp; Friday, June 30 &amp; July 1:  Arts &amp; Sciences </li>
-					</ol>
-
-
-					<h4>Orientation Dates</h4>
-					<ul>
-						<li>August 2016 Transfer Orientation:  Wednesday, August 24th</li>
-						<li>New Students Move-in: Thursday, August 25th </li>
-						<li>Pirate Adventure #5: Thursday, August 25th (for those who didn’t attend in June)</li>
-						<li>Orientation: Friday &mdash; Sunday, August 26th &mdash; August 28th </li>
-						<li>Convocation: Sunday, August 28th </li>
-						<li>Classes Begin: Monday, August 29th</li>
-					</ul>
-
-				</div>     <!-- end left column -->
-
-				<div class="small-12 medium-5 large-4 columns">
-					<h3>Seton Hall Mobile Computing</h3>
-					<h4>Asset Management Office</h4>
-					<address>Corrigan Hall, Room 27<br>
-					Seton Hall University<br>
-					400 South Orange Ave<br>
-					South Orange, NJ 07079<br>
-					Phone: 973-313-6181<br>
-					Email: <a href="mailto:assets@shu.edu">assets@shu.edu</a></address>
-
-
-					<h3>Additional Resources</h3>
-					<ul>
-						<li><a href="http://blogs.shu.edu/technology" target="_blank">SHU Technology Blog</a> </li>
-						<li><a href="/browsercheck" target="_blank">Browsers and Plugin Check</a> </li>
-					</ul>
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="callout">
+					<h3>We&rsquo;re stoked you want to try Foundation! </h3>
+					<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+					<p>Once you've exhausted the fun in this document, you should check out:</p>
+					<div class="row">
+						<div class="large-4 medium-4 columns">
+							<p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+						</div>
+						<div class="large-4 medium-4 columns">
+							<p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
+						</div>
+						<div class="large-4 medium-4 columns">
+							<p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
+						</div>
+					  </div>
+					  <div class="row">
+						<div class="large-4 medium-4 medium-push-2 columns">
+							<p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+						</div>
+						<div class="large-4 medium-4 medium-pull-2 columns">
+							<p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+
+		<div class="row">
+			<div class="large-8 medium-8 columns">
+				<h5>Here&rsquo;s your basic grid:</h5>
+				<!-- Grid Example -->
+
+				<div class="row">
+					<div class="large-12 columns">
+						<div class="primary callout">
+							<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-6 medium-6 columns">
+						<div class="primary callout">
+							<p>Six columns</p>
+						</div>
+					</div>
+					<div class="large-6 medium-6 columns">
+						<div class="primary callout">
+							<p>Six columns</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-4 medium-4 small-4 columns">
+						<div class="primary callout">
+							<p>Four columns</p>
+						</div>
+					</div>
+					<div class="large-4 medium-4 small-4 columns">
+						<div class="primary callout">
+							<p>Four columns</p>
+						</div>
+					</div>
+					<div class="large-4 medium-4 small-4 columns">
+						<div class="primary callout">
+							<p>Four columns</p>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+
+				<h5>We bet you&rsquo;ll need a form somewhere:</h5>
+				<form>
+					<div class="row">
+						<div class="large-12 columns">
+							<label>Input Label</label>
+							<input type="text" placeholder="large-12.columns" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-4 medium-4 columns">
+							<label>Input Label</label>
+							<input type="text" placeholder="large-4.columns" />
+						</div>
+						<div class="large-4 medium-4 columns">
+							<label>Input Label</label>
+							<input type="text" placeholder="large-4.columns" />
+						</div>
+						<div class="large-4 medium-4 columns">
+							<div class="row collapse">
+								<label>Input Label</label>
+								<div class="input-group">
+									<input type="text" placeholder="small-9.columns" class="input-group-field" />
+									<span class="input-group-label">.com</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<label>Select Box</label>
+							<select>
+								<option value="husker">Husker</option>
+								<option value="starbuck">Starbuck</option>
+								<option value="hotdog">Hot Dog</option>
+								<option value="apollo">Apollo</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-6 medium-6 columns">
+							<label>Choose Your Favorite</label>
+							<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+							<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+						</div>
+						<div class="large-6 medium-6 columns">
+							<label>Check these out</label>
+							<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+							<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<label>Textarea Label</label>
+							<textarea placeholder="small-12.columns"></textarea>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="large-4 medium-4 columns">
+				<h5>Try one of these buttons:</h5>
+				<p><a href="#" class="button">Simple Button</a><br/>
+				<a href="#" class="success button">Success Btn</a><br/>
+				<a href="#" class="alert button">Alert Btn</a><br/>
+				<a href="#" class="secondary button">Secondary Btn</a></p>
+				<div class="callout">
+					<h5>So many components, girl!</h5>
+					<p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
+					<a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+				</div>
+			</div>
+		</div>
 
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'footer.tpl') ?>
 
@@ -83,8 +173,5 @@
 		<script src="<?php echo URI_GLOBAL_VENDOR . 'foundation/js/vendor/what-input.js' ?>"></script>
 		<script src="<?php echo URI_GLOBAL_VENDOR . 'foundation/js/vendor/foundation.min.js' ?>"></script>
 		<script src="<?php echo URI_GLOBAL_ASSETS . 'js/app.min.js' ?>"></script>
-
-		<!-- NOTE: Application specific JS -->
-		<script src="js/custom.js"></script>
 	</body>
 </html>
