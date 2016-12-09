@@ -12,7 +12,7 @@
 	<body>
 
 		<header id="header" class="main-header">
-			<?php include(PATH_GLOBAL_VIEWS_DIR . 'header.tpl') ?>
+			<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'header.tpl') ?>
 		</header>
 
 		<div class="row">
@@ -168,10 +168,8 @@
 		</div>
 
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'footer.tpl') ?>
+		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'scripts.tpl') ?>
 
-		<script src="<?php echo URI_GLOBAL_VENDOR . 'foundation/js/vendor/jquery.js' ?>"></script>
-		<script src="<?php echo URI_GLOBAL_VENDOR . 'foundation/js/vendor/what-input.js' ?>"></script>
-		<script src="<?php echo URI_GLOBAL_VENDOR . 'foundation/js/vendor/foundation.min.js' ?>"></script>
 		<script src="<?php echo URI_GLOBAL_ASSETS . 'js/app.min.js' ?>"></script>
 	</body>
 </html>

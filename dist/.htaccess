@@ -1,4 +1,1 @@
-#SSLOptions +StrictRequire
-#SSLRequireSSL
-#SSLRequire %{HTTP_HOST} eq "tltc.shu.edu"
 ErrorDocument 403 /cgi-bin/redirect.pl
