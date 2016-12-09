@@ -7,7 +7,7 @@
 <html class="no-js" lang="en" dir="ltr">
 	<head>
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'head.tpl') ?>
-		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/app.css">
 	</head>
 	<body>
 
@@ -170,6 +170,6 @@
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'footer.tpl') ?>
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'scripts.tpl') ?>
 
-		<script src="<?php echo URI_GLOBAL_ASSETS . 'js/app.min.js' ?>"></script>
+		<script src="./assets/js/app.js"></script>
 	</body>
 </html>
