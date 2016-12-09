@@ -24,16 +24,17 @@
 			<? include('includes/navbar.htm') ?>
 
 			<div class="row">
-				<div class="small-12 medium-7 large-9 columns">
+				<div class="small-12 columns">
 					<h1>Laptop Distribution</h1>
-					<h2>Mandatory Laptop Forms</h2>
+				</div>
+				<div class="small-12 medium-7 large-8 columns">
+					<h3>Mandatory Laptop Forms</h3>
 					<p>All students must confirm their acceptance of the Terms and Conditions, Return Policy and Technology Usage Policy.
 					Students who will be minors at the time of their laptop distribution must also have a parental consent form.</p>
 					<p><a href="students/index.php">Log in here to check the status</a> of your forms, and for links to complete them.</p>
 
 
-					<h2>Pirate Adventure and Orientation 2016</h2>
-					<h3>Key Dates</h3>
+					<h3>Pirate Adventure and Orientation 2016 Key Dates</h3>
 
 					<h4>Pirate Adventure Dates</h4>
 					<ol>
@@ -56,7 +57,7 @@
 
 				</div>     <!-- end left column -->
 
-				<div class="small-12 medium-5 large-3 columns">
+				<div class="small-12 medium-5 large-4 columns">
 					<h3>Seton Hall Mobile Computing</h3>
 					<h4>Asset Management Office</h4>
 					<address>Corrigan Hall, Room 27<br>
@@ -74,8 +75,6 @@
 					</ul>
 				</div>
 			</div>
-
-			<? include('includes/footer.htm') ?>
 		</section>
 
 		<?php require_once(PATH_GLOBAL_VIEWS_DIR . 'footer.tpl') ?>
