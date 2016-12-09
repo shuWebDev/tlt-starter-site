@@ -1,3 +1,4 @@
-<h1>TLT Projects</h1>
-<?php phpinfo(); ?>
-
+<?php
+	header('Location: dist/index.php', true, 302);
+	die();
+?>
